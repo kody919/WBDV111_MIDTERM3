@@ -1,0 +1,115 @@
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        header {
+            background-color: #FF7524;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 3px;
+			color: #DBB630;
+			text-shadow:
+			-1px -1px 0 #000,
+			1px -1px 0 #000,
+			-1px 1px 0 #000,
+			1px 1px 0 #000;
+        }
+
+        nav {
+            background-color: #D15C15;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 25px;
+            display: block;
+        }
+
+        nav a:hover {
+            background-color: #703007;
+        }
+
+        .container {
+            padding: 10px;
+            text-align: center;
+			background-color: #703007;
+			font-family: arial, sans-serif;
+			min-height: 100vh;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #CF741B;
+            padding: 25px;
+            width: 200px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            margin-bottom: 15px;
+			color: #DBB630;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #D4AF11;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #D4B94C;
+        }
+		
+		.retail {
+			color: #DBB630;
+			text-shadow:
+			-1px -1px 0 #000,
+			1px -1px 0 #000,
+			-1px 1px 0 #000,
+			1px 1px 0 #000;
+		}
+		
+		.container h2 {
+			color: white;
+		}
+		
+		table {
+			width: 60%;
+			margin: auto;
+			border-collapse: collapse;
+			background-color: white;
+		}
+
+		th, td {
+			padding: 12px;
+			border: 1px solid black;
+			text-align: center;
+		}
+
+		th {
+			background-color: orange;
+			color: white;
+		}
